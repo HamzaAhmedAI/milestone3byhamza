@@ -1,0 +1,93 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f8f0f8;
+
+}
+
+h1{
+    text-align: center;
+    color: #2c3e50;
+
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color:#999b9c21;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid #475e75;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(251, 240, 255);
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color:#2c3e50;
+}
+
+input,textarea{
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid  #475e75;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 80px;
+    padding: 10px;
+    background-color: #2c3e50 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+ button:hover{
+    background-color: #af8bbe;
+
+ }
+
+ #resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #475e75;
+    border-radius: 8px;
+    background-color:rgb(251, 240, 255) ;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2{
+    color: #2c3e50;
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #475e75;
+    box-shadow: 0 4px 8px #2c3e50;
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
